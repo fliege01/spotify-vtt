@@ -25,7 +25,9 @@ class SpotifyVttPlayer {
 
 
 Hooks.once('init', () => {
+    console.log('SpotifyVTT | Initialize')
     game.modules.get('my-module-name').api = new SpotifyVttPlayer();
 
-    Hooks.callAll('SpotifyVttPlayerReady', game.modules.get('my-module-name').api)
+    Hooks.callAll('SpotifyVttPlayerReady', game.modules.get('my-module-name').api);
+    console.log('SpotifyVTT | ready')
 });

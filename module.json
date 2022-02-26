@@ -3,7 +3,7 @@
   "title": "Spotify connector for Foundry VTT",
   "description": "Play your playlist in Foundry",
   "author": "Nico Bischof",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "minimumCoreVersion": "0.5.0",
   "esmodules": [
     "src/index.js"
