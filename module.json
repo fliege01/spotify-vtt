@@ -1,14 +1,14 @@
 {
   "name": "spotify-vtt",
   "title": "Spotify connector for Foundry VTT",
-  "description": "Play your playlist in ",
+  "description": "Play your playlist in Foundry",
   "author": "Nico Bischof",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "minimumCoreVersion": "0.5.0",
   "esmodules": [
     "src/index.js"
   ],
-  "url": "https://github.com/hktrpg/foundryVTT_game_time_clock/",
+  "url": "https://github.com/fliege01/spotify-vtt/",
   "manifest": "https://raw.githubusercontent.com/fliege01/spotify-vtt/main/module.json",
   "download": "https://github.com/fliege01/spotify-vtt/archive/refs/heads/main.zip",
   "dependencies": [
